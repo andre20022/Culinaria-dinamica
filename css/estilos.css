@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.header-cafe{
+
+    background-image: url(../img/header-cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    opacity: 0.8;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+.format{
+
+    font-family: cursive;
+    font-size: 1.3em;
+
+}
+.move-botao{
+    
+    position:relative;
+    animation: move-button .6s infinite;
+
+}
+@keyframes move-button{
+   from{
+      bottom: 20px;
+    }
+
+    to{
+      bottom: 30px;
+    }
+}
